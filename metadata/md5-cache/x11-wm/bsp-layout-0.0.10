@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=x11-wm/bspwm sys-devel/bc app-shells/bash
+DESCRIPTION=Manage layouts with bspwm
+EAPI=8
+HOMEPAGE=https://github.com/phenax/bsp-layout
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=x11-wm/bspwm sys-devel/bc app-shells/bash
+SLOT=0
+SRC_URI=https://github.com/phenax/bsp-layout/archive/refs/tags/0.0.10.tar.gz -> bsp-layout-0.0.10.tar.gz
+_md5_=785590b99b5b33e1734256a877c3579f

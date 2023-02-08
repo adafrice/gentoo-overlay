@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install
+DEPEND=x11-libs/libX11 x11-libs/libXrandr x11-libs/cairo x11-libs/pango gnome-base/librsvg dev-libs/glib:2
+DESCRIPTION=An X11 menu
+EAPI=8
+HOMEPAGE=https://jgmenu.github.io/
+IUSE=gtktheme lx pmenu
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXrandr x11-libs/cairo x11-libs/pango gnome-base/librsvg dev-libs/glib:2
+SLOT=0
+SRC_URI=https://github.com/johanmalm/jgmenu/archive/refs/tags/v4.4.0.tar.gz -> jgmenu-4.4.0.tar.gz
+_md5_=7157bb2e771e36763b227127c6071f1f

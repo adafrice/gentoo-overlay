@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<use>
+		<flag name="gtktheme">Install gtktheme module</flag>
+		<flag name="lx">Install lx module</flag>
+		<flag name="pmenu">Install pmenu module</flag>
+	</use>
+</pkgmetadata>

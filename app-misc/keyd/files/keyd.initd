@@ -1,0 +1,14 @@
+#!/sbin/openrc-run
+# Copyright 2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="keyd"
+description="key remapping daemon"
+command=/usr/bin/keyd
+
+supervisor="supervise-daemon"
+
+depend() {
+	need localmount
+	before display-manager
+}

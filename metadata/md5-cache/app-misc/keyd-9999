@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=sys-kernel/linux-headers dev-python/python-xlib acct-group/keyd
+DESCRIPTION=A key remapping daemon for Linux
+EAPI=8
+HOMEPAGE=https://github.com/rvaiya/keyd
+KEYWORDS=**
+LICENSE=MIT
+RDEPEND=sys-kernel/linux-headers dev-python/python-xlib acct-group/keyd
+SLOT=0
+SRC_URI=https://github.com/rvaiya/keyd/archive/refs/tags/v9999.tar.gz -> keyd-9999.tar.gz
+_md5_=5584e34c2dda4142b592cb3065615ac1
