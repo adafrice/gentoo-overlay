@@ -1,0 +1,14 @@
+BDEPEND=>=app-editors/emacs-25.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=dev-vcs/git-2.20 app-arch/tar
+DESCRIPTION=Build and install your Emacs Lisp packages on-the-fly directly from source
+EAPI=8
+HOMEPAGE=https://github.com/quelpa/quelpa
+INHERIT=elisp
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-vcs/git-2.20 app-arch/tar >=app-editors/emacs-25.1:*
+SLOT=0
+SRC_URI=https://github.com/quelpa/quelpa/archive/refs/tags/v1.0.tar.gz -> quelpa-1.0.tar.gz
+_eclasses_=elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	7c909c95247c2956817398279fd23610
+_md5_=ffb89cb77ffabf673d8363e492bb81fd

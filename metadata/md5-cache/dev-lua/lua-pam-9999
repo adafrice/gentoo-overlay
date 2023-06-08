@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/lua
+DESCRIPTION=Lua module for PAM authentication
+EAPI=8
+HOMEPAGE=https://github.com/devurandom/lua-pam
+INHERIT=git-r3 multilib
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/lua virtual/pam
+SLOT=0
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e
+_md5_=4306ea59a6322dfbc70e22209ed7b42e

@@ -1,0 +1,15 @@
+BDEPEND=>=dev-lisp/sbcl-2.0.0
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=net-libs/webkit-gtk dev-libs/gobject-introspection net-libs/glib-networking gnome-base/gsettings-desktop-schemas sys-libs/libfixposix X? ( x11-misc/xclip ) spell? ( app-text/enchant )
+DESCRIPTION=Nyxt - the internet on your terms.
+EAPI=8
+HOMEPAGE=https://nyxt.atlas.engineer/
+INHERIT=xdg-utils
+IUSE=X spell
+KEYWORDS=~amd64
+LICENSE=BSD CC-BY-SA-3.0
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/atlas-engineer/nyxt/releases/download/2.2.4/nyxt-2.2.4-source-with-submodules.tar.xz -> nyxt-2.2.4.tar.xz
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=8a300763dd44f8e74cd62bd8c0a28fa6

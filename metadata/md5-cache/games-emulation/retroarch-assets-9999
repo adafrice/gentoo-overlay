@@ -9,5 +9,5 @@ LICENSE=CC-BY-4.0
 PROPERTIES=live
 RDEPEND=materialui? ( !!<games-emulation/retroarch-1.7.8 ) ozone? ( !!<games-emulation/retroarch-1.7.8 ) rgui? ( !!<games-emulation/retroarch-1.7.8 ) xmb? ( !!<games-emulation/retroarch-1.7.8 )
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=d425cd9323776deab9dcda32cd892361
